@@ -1,8 +1,8 @@
 import pandas as pd
 import time
 
-language = 'Italian'
-path = 'C:\\Users\\Admin\\Documents\\Personal Documents\\Miscellaneous\\Wordle\\%s\\%s' % (language, '%s')
+language = 'English'
+path = './WordBank/%s/%s' % (language, '%s')
 
 
 def letterfrequency(wordlist, letterlist=None):
